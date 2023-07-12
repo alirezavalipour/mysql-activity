@@ -7,7 +7,7 @@ import time as tt
 import os
 from tabulate import tabulate
 from argparse import ArgumentParser
-
+from mysql.connector.locales.eng import client_error
 from subprocess import call
 
 
